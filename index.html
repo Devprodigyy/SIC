@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIC</title>
+
+    <!-- google gonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- lenis -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.17/dist/lenis.css">
+    <!-- shery css -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="overflow-x-hidden">
+
+
+    <!-- mene slide -->
+    <div id="menubox" class="bg-white z-[900] absolute top-0 left-[-600px] w-full h-full sm:w-[600px]">
+        <div class="h-[30vh] w-full flex justify-between px-2 pt-4">
+            <h1 class="text-[3vh]">SIC</h1>
+            <h1 id="menuclose" class="magnet text-[3vh]">Close</h1>
+        </div>
+        <div id="menus" class="h-[60vh] w-full flex flex-col px-2 ">
+            <div class="h-[15%]">
+                <h2 class="magnet w-full pb-4 text-[4vh] border-t-[1px] border-b-[1px] border-black">Investments</h2>
+            </div>
+            <div class="h-[15%]">
+                <h2 class="magnet w-full pb-4 text-[4vh] border-b-[1px] border-black">Team</h2>
+            </div>
+            <div class="h-[15%]">
+                <h2 class="magnet w-full pb-4 text-[4vh] border-b-[1px] border-black">Press</h2>
+            </div>
+            <div class="h-[15%]">
+                <h2 class="magnet w-full pb-4 text-[4vh] border-b-[1px] border-black">Social Proof</h2>
+            </div>
+            <div class="h-[15%]">
+                <h2 class="magnet w-full pb-4 text-[4vh]">Contact</h2>
+            </div>
+        </div>
+        <div class="flex items-center h-[10vh] pl-4">
+            <!-- <button  class="menuclose2 h-[80%] w-[200px] border-red-500 border-2 text-blue-700 rounded-2xl">Close</button> -->
+
+        </div>
+    </div>
+
+    <main id="main" class="px-3 sm:px-3">
+        <header class=" px-10 h-[8vh] flex items-center justify-between">
+            <div class="hidden h-[10vh]  items-center gap-4 md:flex">
+                <a class="magnet sm:text-[1.6]  md:text-[1.2] xl:text-[1.3vw]" href="#">Investments</a>
+                <a class="magnet sm:text-[1.6]  md:text-[1.2] xl:text-[1.3vw]" href="#">Team</a>
+                <a class="magnet sm:text-[1.6]  md:text-[1.2] xl:text-[1.3vw]" href="#">Press</a>
+                <a class="magnet sm:text-[1.6]  md:text-[1.2] xl:text-[1.3vw]" href="#">Social Proof</a>
+                <a class="magnet sm:text-[1.6]  md:text-[1.2] xl:text-[1.3vw]" href="#">Contact</a>
+            </div>
+            <div class=" h-full flex items-center justify-center text-black">Lps</div>
+            <i id="menubtn" class="magnet block md:hidden ri-menu-fill"></i>
+
+        </header>
+
+        <!-- sec1 -->
+        <section id="sec1" class="relative min-h-[50vh] w-full flex items-center justify-center ">
+            <img class="h-full w-full object-contain md:hidden" src="./assets/hero_mobile.webp" alt="">
+            <img class="hidden md:block min-h-[20vh] w-full object-contain  xl:h-screen"
+                src="./assets/hero_desktop.webp" alt="">
+            <div class="absolute z-20 flex flex-col items-center justify-center">
+                <h6 class="text-blue-600 text-[3vw] sm:text-blue-600 sm:text-[2vw] xl:text-[1vw]">XII · I · MMXXIV</h6>
+                <h2 class="text-blue-600 text-[8vw] sm:text-blue-600 sm:text-[4vw] xl:text-[2vw]">WE INVEST IN</h2>
+                <h2 class="text-blue-600 text-[8vw] sm:text-blue-600 sm:text-[4vw] xl:text-[2vw]">FOUNDERS</h2>
+                <h2 class="text-blue-600 text-[8vw] sm:text-blue-600 sm:text-[4vw] xl:text-[2vw]">IMPACTING HISTORY</h2>
+            </div>
+        </section>
+
+          <!-- sec2 -->
+          <section id="sec2"
+          class="relative h-screen flex items-center justify-center gap-10 md:min-h-[50vh] w-full mt-[10vh]">
+          <div class="w-full flex flex-col-reverse sm:flex-row">
+              <div id="plain" class="w-full flex items-center justify-center">
+                  <img class=" magnet h-[30vh] " src="./assets/about.webp" alt="">
+              </div>
+
+              <div id="para1" class="w-full flex flex-col items-center justify-center px-2  pl-2 py-10 ">
+                  <p>We believe in Khosla's Instigator Hypothesis:
+                      individuals scaling world-changing
+                      technology will solve the largest problems in
+                      the world. For example, 12-15 entrepreneurs
+                      creating the right companies is all it will take
+                      to solve the climate crisis.</p>
+                  <br>
+                  <p>We are a research-driven venture capital firm
+                      that invests as early as possible into the
+                      “best ideas in impact.” Too much of venture
+                      capital has gone into “backyard problems”
+                      rather than the grand global challenges.</p>
+                  <br>
+                  <p class=" w-full flex justify-start text-left">We exist to fund and support founders
+                      working on the hardest problems in the
+                      world.</p>
+              </div>
+          </div>
+      </section>
+
+        <!-- sec3 -->
+        <section id="sec3" class="w-full">
+            <h3 class="text-[4vw] w-[80%] text-blue-700 leading-[4vh] md:text-[3vw] md:leading-[5.5vh] ">We are the
+                earliest investors
+                in mission-driven founders until
+                their companies are attractive to top-tier VCs. In our Fund I, we
+                have a 69% rate of follow-on investment by top-tier firms and a
+                100% follow-on rate overall.</h3>
+            <h5 class="mt-6 text-[3vw] md:text-[1vw]">AS OF Q3 2024</h5>
+        </section>
+
+         <!-- sec4 -->
+         <section id="sec4" class="relative w-full overflow-x-hidden min-h-[60vh] flex flex-col sm:h-screen">
+            <div class="h-[20vh]">
+                <img id="fighterplain" class="magnet absolute top-10 mt-2 h-[10vh] w-[30vw] object-contain md:w-[20vw]"
+                    src="./assets/plane.webp" alt="">
+            </div>
+            <div id="paralax" class="flex justify-between ">
+                <img id="left" class="w-[80vh] md:h-[60vh] object-contain xl:h-[90vh] " src="./assets/left_2560.webp"
+                    alt="">
+                <img id="right" class="hidden md:block h-[60vh] object-contain md:object-cover xl:h-[70vh]"
+                    src="./assets/right_2560.webp" alt="">
+            </div>
+        </section>
+
+        <!-- sec5 -->
+        <section id="sec5" class="w-full min-h-screen ">
+            <h1 class="text-[3vh] pl-2">Our investments</h1>
+            <!-- redirect section 1 -->
+            <div id="redirect" class="relative mt-10 py-3 pl-2">
+                <!-- <div class="flex flex-col md:flex-row">
+                    <div class="flex flex-col w-[80vw] ">
+                        <h1 class="magnet  text-[5vh] md:text-[4vw] whitespace-nowrap ">TOTUS MEDICINES</h1>
+                        <P class="text-[2vh] md:text-[3vh]">Plotform to rapidly design covalent drugs and cure new
+                            illness.</P>
+                    </div>
+                    <div class="w-full md:flex flex-col md:w-[40vw]">
+                        <div class="mt-3">
+                            <span class="sm:text-[3vw] md:w-fit md:text-[2vw] px-[12px] text-white bg-blue-700 ">We
+                                invested</span>
+                            <span
+                                class="sm:text-[3vw] md:w-fit md:text-[2vw] px-[12px] bg-slate-200 text-blue-700">Pre-seed</span>
+                        </div>
+                        <div class="">
+                            <span
+                                class="text-[20px] sm:text-[2vw] md:w-fit md:text-[1vw] px-[12px] bg-slate-200 text-blue-700">Last
+                                round</span>
+                            <span
+                                class="text-[20px] sm:text-[2vw] md:w-fit md:text-[1vw] px-[12px] text-white bg-blue-700 ">Series
+                                B led by DCVC Bio</span>
+                        </div>
+                    </div> -->
+            </div>
+
+            <!-- <a href="">  <i class="absolute top-0 right-0 md:text-[2.5vw] ri-arrow-right-up-line"></i></a>  -->
+            </div>
+
+
+        </section>
+
+           <!-- sec6 -->
+           <section id="sec6" class="relative w-full h-screen bg-blue-700 flex flex-col items-center justify-center ">
+            <img class="magnet absolute top-10 left-0 h-[25vh] md:h-[35vh]" src="./assets/cta_left.webp" alt="">
+            <!-- <img src="./assets/" alt=""> -->
+            <h1 class="text-white text-[22px] leading-7 sm:text-[30px] md:text-[50px] md:leading-10">WE AIM TO BE THE
+                MOST</h1>
+            <h1 class="text-white text-[22px] leading-7 sm:text-[30px] md:text-[50px] md:leading-10">COLLABORATIVE FUND
+                IN</h1>
+            <h1 class="text-white text-[22px] leading-7 sm:text-[30px] md:text-[50px] md:leading-10">THE WORLD</h1>
+            <img class="magnet absolute bottom-10 right-0 h-[25vh] md:h-[30vh]" src="./assets/cta_right.webp" alt="">
+            <button class="magnet mt-10 px-5 border-[1px] text-white border-white">REACH OUT</button>
+        </section>
+
+
+        <!-- sec7 -->
+        <section id="sec7" class="min-h-[20vh] w-full">
+            <h1 class="mt-20 mb-8 text-[4vw] sm:text-[3vw]  md:text-[2vw]  text-blue-700">Our team invests worldwide
+                from NYC</h1>
+            <p class=" text-[4vw] sm:text-[3vw]  md:text-[2vw] w-[80%]">we partern early. We are comfortable with the
+                rough imperfections of
+                start-ups.
+                As a solo GP with 41+ venture partners, we are hightly responsive but also
+                have the borad-based experience to fully support world-changing enterpreneurs.
+            </p>
+        </section>
+
+          <!-- sec8 -->
+          <section id="sec8" class="mt-10 mb-10 w-full min-h-[20vh] flex flex-col">
+            <!--  -->
+            <div class="relative w-full flex px-3 border-b-[1px] border-black">
+                <div class="mb-5 ">
+                    <h1 class="magnet w-full md:text-[4vw]">SARAH CONE</h1>
+                    <h6 class="w-full md:text-[2vw]">Founder & Managing Partner</h6>
+                </div>
+                <i class="absolute right-10 top-3 text-[4vw] ri-arrow-right-up-line"></i>
+            </div>
+
+            <!--  -->
+            <div class="relative w-full flex px-3 border-b-[1px] border-black">
+                <div class="mb-5 ">
+                    <h1 class="magnet w-full md:text-[4vw]">ALEX PETRESCU</h1>
+                    <h6 class="w-full md:text-[2vw]">investments & Operations</h6>
+                </div>
+                <i class="absolute right-10 top-3 text-[4vw] ri-arrow-right-up-line"></i>
+            </div>
+
+            <p class="px-3 mt-28 flex text-[4vw] md:text-[2vw]">Plus 41 global venture partners that help founders bend
+                the trajectory of success</p>
+
+        </section>
+
+            <!-- sec9 -->
+            <section id="sec9" class="min-h-[20vh] w-full">
+                <img class="h-full  hidden md:block md:h-full w-full object-cover " src="./assets/footerBreak_1280.webp"
+                    alt="">
+                <img class="h-full block object-cover w-full md:h-full md:object-contain md:hidden "
+                    src="./assets/footerBreak_600.webp" alt="">
+            </section>
+
+            <!-- footer -->
+        <footer class="h-[10vh] w-full flex flex-col px-10 bg-white">
+            <div class="h-[20vh] w-full flex items-center justify-center ">
+                <h1
+                    class="flex items-center justify-center text-center  text-[4vw] w-full md:text-[2vw] md:w-[80%] text-blue-700">
+                    @devprodigy - All rights reserved 2025</h1>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+
+
+    <!-- lenis  -->
+    <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <!-- shery js -->
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+
+    <!-- custom js -->
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
